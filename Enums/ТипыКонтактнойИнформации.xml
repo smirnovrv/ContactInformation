@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="41e18da1-a982-4f7f-b66c-6738b85f4d07">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыКонтактнойИнформации" category="Ref">
+				<xr:TypeId>dd951abb-88f7-4e31-80ff-1d854f90bc9d</xr:TypeId>
+				<xr:ValueId>48e3eaf8-ef69-4e12-8f0c-d91497ceabf3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыКонтактнойИнформации" category="Manager">
+				<xr:TypeId>bbe4417d-d7d7-484e-85ba-0f1465d0f619</xr:TypeId>
+				<xr:ValueId>e6dba593-7e02-4d28-bcea-dc8bf90e00e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыКонтактнойИнформации" category="List">
+				<xr:TypeId>6d54e06d-4090-4853-ac4c-ab01489ecc4a</xr:TypeId>
+				<xr:ValueId>9dd36b07-5e30-4cf3-9895-51ac01001a4a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыКонтактнойИнформации</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>06e39ea4-de56-49e5-b462-c467fb5ce9dc</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="4dee68d7-8989-491e-8eac-fa34126b5ce1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Адрес</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>717ac118-e36a-4e49-8c76-e5a8c09bc911</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fad8f08a-14e6-44f0-9e46-b9f936853481">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Телефон</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>25f4b5fe-7b92-46f5-a95f-d3e53f7b10fb</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="18343311-ff09-4779-8a81-1420d683ee2f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АдресЭлектроннойПочты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>007ddfa8-8bc8-471b-b009-5c4caf46fb50</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4ea43c3a-d86f-4f9c-9e25-4b1ab396874d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Skype</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fef27478-ddfd-4ad9-8161-148761f29698</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f3f42d0a-dce8-4649-9915-ae7581caf48f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВебСтраница</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fbbea4fa-721a-4864-95c9-b088b8e438d0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f22f54ee-8729-45db-98a5-bea85fcf4e7d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Другое</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>95461b46-fd45-4350-bbcc-efae8ad16d25</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
