@@ -51,10 +51,10 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles>
-				<xr:Item xsi:type="xr:MDObjectRef">Role.РС_ОсновнаяРоль</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.РС_КонтактнаяИнформация</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП СмирновРВ  661300789600</Vendor>
-			<Version>01.1</Version>
+			<Version>01.2</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -65,7 +65,8 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Role>РС_ОсновнаяРоль</Role>
+			<Subsystem>РС_КонтактнаяИнформация</Subsystem>
+			<Role>РС_КонтактнаяИнформация</Role>
 			<Catalog>РС_Контрагенты</Catalog>
 			<Catalog>РС_ВидыКонтактнойИнформации</Catalog>
 			<Enum>ТипыКонтактнойИнформации</Enum>
