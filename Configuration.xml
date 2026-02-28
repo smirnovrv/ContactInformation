@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.РС_КонтактнаяИнформация</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП СмирновРВ  661300789600</Vendor>
-			<Version>01.2</Version>
+			<Version>01.3</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -69,6 +69,7 @@
 			<Role>РС_КонтактнаяИнформация</Role>
 			<Catalog>РС_Контрагенты</Catalog>
 			<Catalog>РС_ВидыКонтактнойИнформации</Catalog>
+			<Catalog>Контрагенты</Catalog>
 			<Enum>ТипыКонтактнойИнформации</Enum>
 		</ChildObjects>
 	</Configuration>

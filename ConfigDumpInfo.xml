@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
+		<Metadata name="Catalog.Контрагенты" id="01db143e-1cac-41f7-8263-0b25545d1699" configVersion="11f9b759f2b8c79f4ea65187f2c4ee133d34c685">
+			<Metadata name="Catalog.Контрагенты.Attribute.ИНН" id="1ec56ef8-5624-4866-957c-c1a431db9fdc"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.НаименованиеПолное" id="5276ee44-f09a-4611-8840-f1272af27628"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.КПП" id="b52b96ba-cdc8-45e8-9d55-d6da72738563"/>
+		</Metadata>
 		<Metadata name="Catalog.РС_ВидыКонтактнойИнформации" id="abbb1600-e157-4449-91fe-ed0312769499" configVersion="b9558f272be3879538d799bc20fb639a7bd063f4"/>
 		<Metadata name="Catalog.РС_Контрагенты" id="b77f4ab2-4a84-4fd3-8cdb-9e3e49af5b92" configVersion="27949bf741c43254b75c79919f5f781ea0080071">
 			<Metadata name="Catalog.РС_Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.ВидДляСписка" id="06f224ae-5858-4d10-ba72-b179a798c23f"/>
@@ -22,8 +27,8 @@
 			<Metadata name="Catalog.РС_Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Представление" id="f82e7470-ced5-4a0b-addc-5387d9303f12"/>
 		</Metadata>
 		<Metadata name="Catalog.РС_Контрагенты.Form.ФормаСписка" id="bb5a2222-57b4-4ffb-a274-2ca8fb6ae042" configVersion="6afd9162a24a222aa1dce1a2aa1ad2f55c963290"/>
-		<Metadata name="Catalog.РС_Контрагенты.Form.ФормаСписка.Form" id="bb5a2222-57b4-4ffb-a274-2ca8fb6ae042.0" configVersion="7ea44be3b1a6e3203737121914c0ebf039dd9586"/>
-		<Metadata name="Configuration.РС_КонтактнаяИнформация" id="af1df482-1c53-42eb-a1c2-b4abfe294421" configVersion="01f7d5cf5fbdac11ffd80787b3e5885dc463b76b"/>
+		<Metadata name="Catalog.РС_Контрагенты.Form.ФормаСписка.Form" id="bb5a2222-57b4-4ffb-a274-2ca8fb6ae042.0" configVersion="b21c366f8907aff51a805ccf93b953dbc59f24d8"/>
+		<Metadata name="Configuration.РС_КонтактнаяИнформация" id="af1df482-1c53-42eb-a1c2-b4abfe294421" configVersion="03ba22f7ffc63f23b89b7828483a65e439a2b95c"/>
 		<Metadata name="Enum.ТипыКонтактнойИнформации" id="41e18da1-a982-4f7f-b66c-6738b85f4d07" configVersion="af594db2e5413f30a59d239e0344e8540c27c170">
 			<Metadata name="Enum.ТипыКонтактнойИнформации.EnumValue.АдресЭлектроннойПочты" id="18343311-ff09-4779-8a81-1420d683ee2f"/>
 			<Metadata name="Enum.ТипыКонтактнойИнформации.EnumValue.Адрес" id="4dee68d7-8989-491e-8eac-fa34126b5ce1"/>
