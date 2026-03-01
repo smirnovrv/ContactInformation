@@ -1,31 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Subsystem uuid="6c4b96df-0732-4c07-9551-d449f42b64e0">
+	<CommonModule uuid="829825ec-66ed-43a3-9a18-1222cd335058">
 		<Properties>
-			<Name>РС_КонтактнаяИнформация</Name>
+			<Name>РС_ОбщийМодульСервер</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>КИ</v8:content>
+					<v8:content>Общий модуль сервер</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
-			<IncludeHelpInContents>true</IncludeHelpInContents>
-			<IncludeInCommandInterface>true</IncludeInCommandInterface>
-			<UseOneCommand>false</UseOneCommand>
-			<Explanation/>
-			<Picture>
-				<xr:Ref>StdPicture.GroupConversation</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РС_Контрагенты</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РС_ВидыКонтактнойИнформации</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РС_Страны</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РС_Регионы</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РС_КонтактныеЛица</xr:Item>
-			</Content>
+			<Global>false</Global>
+			<ClientManagedApplication>false</ClientManagedApplication>
+			<Server>true</Server>
+			<ExternalConnection>false</ExternalConnection>
+			<ClientOrdinaryApplication>false</ClientOrdinaryApplication>
+			<ServerCall>false</ServerCall>
+			<Privileged>false</Privileged>
+			<ReturnValuesReuse>DontUse</ReturnValuesReuse>
 		</Properties>
-		<ChildObjects/>
-	</Subsystem>
+	</CommonModule>
 </MetaDataObject>

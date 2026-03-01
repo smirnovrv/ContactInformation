@@ -1,20 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
-		<Metadata name="Catalog.Контрагенты" id="01db143e-1cac-41f7-8263-0b25545d1699" configVersion="11f9b759f2b8c79f4ea65187f2c4ee133d34c685">
+		<Metadata name="Catalog.КонтактныеЛица" id="4ad0c208-7f88-4802-bfd7-13c0a1570919" configVersion="57da8d09fe26bd05d5cfc458834e25d03d5af7b5">
+			<Metadata name="Catalog.КонтактныеЛица.Attribute.ДатаРождения" id="875a3e92-8a64-4a7a-ad9e-8dce0b7222d7"/>
+			<Metadata name="Catalog.КонтактныеЛица.Attribute.Имя" id="967cd73e-0c52-4d00-8158-a3a086f243e4"/>
+			<Metadata name="Catalog.КонтактныеЛица.Attribute.Отчество" id="9cb20b79-4961-4188-a8fc-b64753a5bb9c"/>
+			<Metadata name="Catalog.КонтактныеЛица.Attribute.Фамилия" id="aef97d74-e4ad-48ed-8284-7b97eb2d924d"/>
+		</Metadata>
+		<Metadata name="Catalog.Контрагенты" id="01db143e-1cac-41f7-8263-0b25545d1699" configVersion="ad90a090b24668d546190974dac6e7647485b54f">
 			<Metadata name="Catalog.Контрагенты.Attribute.ИНН" id="1ec56ef8-5624-4866-957c-c1a431db9fdc"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.НаименованиеПолное" id="5276ee44-f09a-4611-8840-f1272af27628"/>
 			<Metadata name="Catalog.Контрагенты.Attribute.КПП" id="b52b96ba-cdc8-45e8-9d55-d6da72738563"/>
 		</Metadata>
 		<Metadata name="Catalog.РС_ВидыКонтактнойИнформации" id="abbb1600-e157-4449-91fe-ed0312769499" configVersion="b9558f272be3879538d799bc20fb639a7bd063f4"/>
 		<Metadata name="Catalog.РС_Города" id="99a43f01-ffd1-40a8-9414-7e45c840d503" configVersion="50c810e3bb4a725f6c94f8c6dac49b5ca6f9a15c"/>
-		<Metadata name="Catalog.РС_Контрагенты" id="b77f4ab2-4a84-4fd3-8cdb-9e3e49af5b92" configVersion="faa214cc8ba0dfc8c5e651b9d8d96fa900c0b6d2">
+		<Metadata name="Catalog.РС_КонтактныеЛица" id="289c12ca-0715-47c5-a09a-1225e9f978df" configVersion="60dd294f8897f8a9121178587a2fbc4aac35ff48">
+			<Metadata name="Catalog.РС_КонтактныеЛица.Attribute.Отчество" id="012820f5-356e-4e35-ab8b-0c04bfa3e256"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.Attribute.КонтрагентБД" id="01b84c64-180c-4e24-b29f-2fd4b787c786"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация.Attribute.Тип" id="1112aa21-5f61-4716-bb11-7a27a73f8ff8"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация.Attribute.АдресЭП" id="1d948e8b-4af1-4dc4-94a5-9d50a6295d4e"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация" id="2ceeafb7-902e-4a87-9c6e-822f52b99383"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефона" id="37fb2119-1763-4d98-8459-6c9d5e9febd1"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация.Attribute.ДоменноеИмяСервера" id="4513ea59-76f6-472b-8554-e3fd2dc1ea98"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация.Attribute.Страна" id="6096145b-55a0-40d3-8758-fbd5b0559a3f"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация.Attribute.ЗначенияПолей" id="6aca9187-cad4-42d3-a929-882a4741e8cb"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефонаБезКодов" id="75d29482-b596-46f2-ab30-8b2b21efc934"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация.Attribute.Значение" id="7b6bb4e8-4e5e-46cf-9e14-10455c871f5e"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.Attribute.Фамилия" id="b65736a2-51ed-4e6e-a5de-fd8b26a21659"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация.Attribute.Вид" id="c773e0ee-1707-4cd6-95f7-06840d1434d5"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация.Attribute.Регион" id="c83022ea-1568-45d7-b70a-e9294d02808f"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация.Attribute.Город" id="d0c80c5d-342e-4472-a733-9953cba00a64"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.Attribute.Имя" id="e3bbf37a-857b-475f-8fcf-fdacf4098e4b"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.TabularSection.КонтактнаяИнформация.Attribute.Представление" id="f5720a6c-6870-49e8-af75-62165a786756"/>
+			<Metadata name="Catalog.РС_КонтактныеЛица.Attribute.ДатаРождения" id="ff07f00e-2c21-4d33-abe6-334571b2c539"/>
+		</Metadata>
+		<Metadata name="Catalog.РС_КонтактныеЛица.Form.ФормаСписка" id="c4c6cf56-002d-4e08-a111-36597d31e160" configVersion="dcf4f74f58a1723fbb1b3d09b2abb005e5194af7"/>
+		<Metadata name="Catalog.РС_КонтактныеЛица.Form.ФормаСписка.Form" id="c4c6cf56-002d-4e08-a111-36597d31e160.0" configVersion="2ae604d38814473a762738d8fb3d48cd381a447c"/>
+		<Metadata name="Catalog.РС_Контрагенты" id="b77f4ab2-4a84-4fd3-8cdb-9e3e49af5b92" configVersion="7fcf5f8382ee584c32db9551b5d3f4ef401f47f1">
 			<Metadata name="Catalog.РС_Контрагенты.Attribute.НаименованиеПолное" id="4275e586-2092-4081-95b9-610111a9975e"/>
 			<Metadata name="Catalog.РС_Контрагенты.Attribute.КПП" id="431f6921-2a19-4367-9f97-d7dfd32e2567"/>
 			<Metadata name="Catalog.РС_Контрагенты.Attribute.ИНН" id="6103c5b0-9b9c-4e86-97b4-b97050c6c90d"/>
 			<Metadata name="Catalog.РС_Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Тип" id="67c8ba58-7b75-4b30-bfc5-de53b35ca99b"/>
 			<Metadata name="Catalog.РС_Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Город" id="698cbc83-d43b-44fe-908c-5deaf9a38551"/>
 			<Metadata name="Catalog.РС_Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.АдресЭП" id="6ecd4bdf-b109-41de-8a8b-ae40c2d877b2"/>
+			<Metadata name="Catalog.РС_Контрагенты.Attribute.КонтрагентБД" id="78cbd056-05ee-4f41-802d-ee6bb1c21576"/>
 			<Metadata name="Catalog.РС_Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Значение" id="872b50d3-47fe-469b-a68d-562e829fc324"/>
 			<Metadata name="Catalog.РС_Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Вид" id="8a93fc86-2d63-4dc5-a0af-777395ac20c3"/>
 			<Metadata name="Catalog.РС_Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Страна" id="8adefb15-f153-45b5-84b1-8626689eaef7"/>
@@ -27,10 +56,12 @@
 			<Metadata name="Catalog.РС_Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Представление" id="f82e7470-ced5-4a0b-addc-5387d9303f12"/>
 		</Metadata>
 		<Metadata name="Catalog.РС_Контрагенты.Form.ФормаСписка" id="bb5a2222-57b4-4ffb-a274-2ca8fb6ae042" configVersion="6afd9162a24a222aa1dce1a2aa1ad2f55c963290"/>
-		<Metadata name="Catalog.РС_Контрагенты.Form.ФормаСписка.Form" id="bb5a2222-57b4-4ffb-a274-2ca8fb6ae042.0" configVersion="0f03178d91de27fabbc167f32512ae1e7d09737b"/>
+		<Metadata name="Catalog.РС_Контрагенты.Form.ФормаСписка.Form" id="bb5a2222-57b4-4ffb-a274-2ca8fb6ae042.0" configVersion="a29fc3fd3b1387a1a56e1a7f0963feabe3a3e5a0"/>
 		<Metadata name="Catalog.РС_Регионы" id="bce647c6-eaae-41de-98ac-7ee9d533f439" configVersion="1ce9693a8f07f5e29fcbfe936a2670d1eee03dac"/>
 		<Metadata name="Catalog.РС_Страны" id="12d21fa3-89e0-4d9e-b001-f1fb5202151c" configVersion="989cb3225c6d19b3759e8ec4a8db06e0145241ac"/>
-		<Metadata name="Configuration.РС_КонтактнаяИнформация" id="af1df482-1c53-42eb-a1c2-b4abfe294421" configVersion="b94dc70f70234ff525225ea9ca14737ca17407e8"/>
+		<Metadata name="CommonModule.РС_ОбщийМодульСервер" id="829825ec-66ed-43a3-9a18-1222cd335058" configVersion="aa5f6f24724b7a50f9c735fd0b91d304cee20279"/>
+		<Metadata name="CommonModule.РС_ОбщийМодульСервер.Module" id="829825ec-66ed-43a3-9a18-1222cd335058.0" configVersion="097bb58d1da888aab5b1ad462cc92a837b8c6028"/>
+		<Metadata name="Configuration.РС_КонтактнаяИнформация" id="af1df482-1c53-42eb-a1c2-b4abfe294421" configVersion="c81d8f8e2e6b05ced5fcc85c2ecd5d0ddf8e7792"/>
 		<Metadata name="Enum.ТипыКонтактнойИнформации" id="41e18da1-a982-4f7f-b66c-6738b85f4d07" configVersion="af594db2e5413f30a59d239e0344e8540c27c170">
 			<Metadata name="Enum.ТипыКонтактнойИнформации.EnumValue.АдресЭлектроннойПочты" id="18343311-ff09-4779-8a81-1420d683ee2f"/>
 			<Metadata name="Enum.ТипыКонтактнойИнформации.EnumValue.Адрес" id="4dee68d7-8989-491e-8eac-fa34126b5ce1"/>
@@ -41,6 +72,7 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="3c1fd712-0eae-4cab-9633-95ff32ee9c53" configVersion="e14291266b014ad8f632c6173d7316dd127bd953"/>
 		<Metadata name="Role.РС_КонтактнаяИнформация" id="b45edcde-8d95-4470-bca7-e891bba98b64" configVersion="bc68079826859a96e930704209d1e89b970babab"/>
-		<Metadata name="Subsystem.РС_КонтактнаяИнформация" id="6c4b96df-0732-4c07-9551-d449f42b64e0" configVersion="87175b7536b5d790b41edb0c80c6d75843d79d5b"/>
+		<Metadata name="Subsystem.РС_КонтактнаяИнформация" id="6c4b96df-0732-4c07-9551-d449f42b64e0" configVersion="1999ec80557ae055203bee1d88b4cea14e10b86c"/>
+		<Metadata name="Subsystem.РС_КонтактнаяИнформация.CommandInterface" id="6c4b96df-0732-4c07-9551-d449f42b64e0.1" configVersion="c950d8248d83eec61dd2c4ccb5f3637482ef9555"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
