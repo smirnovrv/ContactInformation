@@ -67,9 +67,11 @@
 			<Language>Русский</Language>
 			<Subsystem>РС_КонтактнаяИнформация</Subsystem>
 			<Role>РС_КонтактнаяИнформация</Role>
-			<Catalog>РС_Контрагенты</Catalog>
-			<Catalog>РС_ВидыКонтактнойИнформации</Catalog>
 			<Catalog>Контрагенты</Catalog>
+			<Catalog>РС_ВидыКонтактнойИнформации</Catalog>
+			<Catalog>РС_Города</Catalog>
+			<Catalog>РС_Контрагенты</Catalog>
+			<Catalog>РС_Регионы</Catalog>
 			<Catalog>РС_Страны</Catalog>
 			<Enum>ТипыКонтактнойИнформации</Enum>
 		</ChildObjects>

@@ -22,6 +22,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РС_Контрагенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РС_ВидыКонтактнойИнформации</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РС_Страны</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РС_Регионы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

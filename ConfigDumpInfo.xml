@@ -7,7 +7,8 @@
 			<Metadata name="Catalog.Контрагенты.Attribute.КПП" id="b52b96ba-cdc8-45e8-9d55-d6da72738563"/>
 		</Metadata>
 		<Metadata name="Catalog.РС_ВидыКонтактнойИнформации" id="abbb1600-e157-4449-91fe-ed0312769499" configVersion="b9558f272be3879538d799bc20fb639a7bd063f4"/>
-		<Metadata name="Catalog.РС_Контрагенты" id="b77f4ab2-4a84-4fd3-8cdb-9e3e49af5b92" configVersion="e20e9b1bc092dee0c07ec3ddd7c0997f24618df0">
+		<Metadata name="Catalog.РС_Города" id="99a43f01-ffd1-40a8-9414-7e45c840d503" configVersion="50c810e3bb4a725f6c94f8c6dac49b5ca6f9a15c"/>
+		<Metadata name="Catalog.РС_Контрагенты" id="b77f4ab2-4a84-4fd3-8cdb-9e3e49af5b92" configVersion="faa214cc8ba0dfc8c5e651b9d8d96fa900c0b6d2">
 			<Metadata name="Catalog.РС_Контрагенты.Attribute.НаименованиеПолное" id="4275e586-2092-4081-95b9-610111a9975e"/>
 			<Metadata name="Catalog.РС_Контрагенты.Attribute.КПП" id="431f6921-2a19-4367-9f97-d7dfd32e2567"/>
 			<Metadata name="Catalog.РС_Контрагенты.Attribute.ИНН" id="6103c5b0-9b9c-4e86-97b4-b97050c6c90d"/>
@@ -26,9 +27,10 @@
 			<Metadata name="Catalog.РС_Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Представление" id="f82e7470-ced5-4a0b-addc-5387d9303f12"/>
 		</Metadata>
 		<Metadata name="Catalog.РС_Контрагенты.Form.ФормаСписка" id="bb5a2222-57b4-4ffb-a274-2ca8fb6ae042" configVersion="6afd9162a24a222aa1dce1a2aa1ad2f55c963290"/>
-		<Metadata name="Catalog.РС_Контрагенты.Form.ФормаСписка.Form" id="bb5a2222-57b4-4ffb-a274-2ca8fb6ae042.0" configVersion="25ffe5d8619be5617ff7f29d4e00b9fddda42c63"/>
+		<Metadata name="Catalog.РС_Контрагенты.Form.ФормаСписка.Form" id="bb5a2222-57b4-4ffb-a274-2ca8fb6ae042.0" configVersion="0f03178d91de27fabbc167f32512ae1e7d09737b"/>
+		<Metadata name="Catalog.РС_Регионы" id="bce647c6-eaae-41de-98ac-7ee9d533f439" configVersion="1ce9693a8f07f5e29fcbfe936a2670d1eee03dac"/>
 		<Metadata name="Catalog.РС_Страны" id="12d21fa3-89e0-4d9e-b001-f1fb5202151c" configVersion="989cb3225c6d19b3759e8ec4a8db06e0145241ac"/>
-		<Metadata name="Configuration.РС_КонтактнаяИнформация" id="af1df482-1c53-42eb-a1c2-b4abfe294421" configVersion="b18b1ffbf9f69309d99172a6baf72bf61ee3c7dd"/>
+		<Metadata name="Configuration.РС_КонтактнаяИнформация" id="af1df482-1c53-42eb-a1c2-b4abfe294421" configVersion="b94dc70f70234ff525225ea9ca14737ca17407e8"/>
 		<Metadata name="Enum.ТипыКонтактнойИнформации" id="41e18da1-a982-4f7f-b66c-6738b85f4d07" configVersion="af594db2e5413f30a59d239e0344e8540c27c170">
 			<Metadata name="Enum.ТипыКонтактнойИнформации.EnumValue.АдресЭлектроннойПочты" id="18343311-ff09-4779-8a81-1420d683ee2f"/>
 			<Metadata name="Enum.ТипыКонтактнойИнформации.EnumValue.Адрес" id="4dee68d7-8989-491e-8eac-fa34126b5ce1"/>
@@ -39,6 +41,6 @@
 		</Metadata>
 		<Metadata name="Language.Русский" id="3c1fd712-0eae-4cab-9633-95ff32ee9c53" configVersion="e14291266b014ad8f632c6173d7316dd127bd953"/>
 		<Metadata name="Role.РС_КонтактнаяИнформация" id="b45edcde-8d95-4470-bca7-e891bba98b64" configVersion="bc68079826859a96e930704209d1e89b970babab"/>
-		<Metadata name="Subsystem.РС_КонтактнаяИнформация" id="6c4b96df-0732-4c07-9551-d449f42b64e0" configVersion="cd358d7d77c9d2947a19b0f6938a67e9c8eb7703"/>
+		<Metadata name="Subsystem.РС_КонтактнаяИнформация" id="6c4b96df-0732-4c07-9551-d449f42b64e0" configVersion="87175b7536b5d790b41edb0c80c6d75843d79d5b"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
