@@ -54,7 +54,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.РС_КонтактнаяИнформация</xr:Item>
 			</DefaultRoles>
 			<Vendor>ИП СмирновРВ  661300789600</Vendor>
-			<Version>01.5</Version>
+			<Version>01.6</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -68,6 +68,7 @@
 			<Subsystem>РС_КонтактнаяИнформация</Subsystem>
 			<Role>РС_КонтактнаяИнформация</Role>
 			<CommonModule>РС_ОбщийМодульСервер</CommonModule>
+			<Catalog>КонтактныеЛица</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>РС_ВидыКонтактнойИнформации</Catalog>
 			<Catalog>РС_Города</Catalog>
@@ -75,7 +76,8 @@
 			<Catalog>РС_Контрагенты</Catalog>
 			<Catalog>РС_Регионы</Catalog>
 			<Catalog>РС_Страны</Catalog>
-			<Catalog>КонтактныеЛица</Catalog>
+			<Catalog>РС_ФизическиеЛица</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
 			<Enum>ТипыКонтактнойИнформации</Enum>
 		</ChildObjects>
 	</Configuration>
