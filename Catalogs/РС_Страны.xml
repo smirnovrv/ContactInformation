@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="12d21fa3-89e0-4d9e-b001-f1fb5202151c">
+	<Catalog uuid="5bf6a8fe-c1d6-41a3-9b1e-37266944c8f8">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.РС_Страны" category="Object">
-				<xr:TypeId>b276a6e7-dfc9-4476-8b3e-7ae6be9dc6e9</xr:TypeId>
-				<xr:ValueId>197529f2-2e69-43b9-b2bb-e99b4ab9bbc8</xr:ValueId>
+				<xr:TypeId>7c33182a-0615-471e-a834-76f5b81fc244</xr:TypeId>
+				<xr:ValueId>fedafe7d-2771-4128-b831-27d10a4fc76e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.РС_Страны" category="Ref">
-				<xr:TypeId>ff7ab256-220f-43a6-a1c7-10a8392d9d14</xr:TypeId>
-				<xr:ValueId>e4512226-9ce2-4b25-b259-847fb8747103</xr:ValueId>
+				<xr:TypeId>e575173e-eb7f-48d3-b14f-3f0df0148c38</xr:TypeId>
+				<xr:ValueId>e23a1901-f315-434b-92ca-803787045912</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.РС_Страны" category="Selection">
-				<xr:TypeId>b40ed6a9-c0a0-4330-8c04-82ee61f7d90c</xr:TypeId>
-				<xr:ValueId>fe07cf25-73af-452d-9325-67f2aae4536a</xr:ValueId>
+				<xr:TypeId>b8c22111-c244-4f18-accd-30782df7e88f</xr:TypeId>
+				<xr:ValueId>038bbdd3-f7fc-4e73-87f2-f52a71408c7d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.РС_Страны" category="List">
-				<xr:TypeId>ddc3701a-f6b9-49a0-a540-0183c9430123</xr:TypeId>
-				<xr:ValueId>67bbfd99-cce6-47f8-99d0-34d0c87938f6</xr:ValueId>
+				<xr:TypeId>bd4d8d9e-114e-40db-9949-0c1072904600</xr:TypeId>
+				<xr:ValueId>8533812e-8d13-4bc8-8fcc-d449143e5f5a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.РС_Страны" category="Manager">
-				<xr:TypeId>d4881114-1ceb-4bd5-ad2b-2392ce6ed971</xr:TypeId>
-				<xr:ValueId>d12997ff-1c0f-4b68-95cc-ff7936f945b2</xr:ValueId>
+				<xr:TypeId>e20364fd-4fbb-4fcd-8dd9-7a17fb738c88</xr:TypeId>
+				<xr:ValueId>497d011d-7c91-4fc5-9045-3ad3a74d113a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>150</DescriptionLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -60,7 +60,7 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Catalog.РС_Страны.Form.ФормаЭлемента</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
@@ -86,6 +86,8 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

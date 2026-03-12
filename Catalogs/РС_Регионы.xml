@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="bce647c6-eaae-41de-98ac-7ee9d533f439">
+	<Catalog uuid="0d087ef3-b530-4294-864d-ea9bf9a360a1">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.РС_Регионы" category="Object">
-				<xr:TypeId>a33e9899-58c7-480a-bb9a-10977f6d9e76</xr:TypeId>
-				<xr:ValueId>8c4bea0b-821e-441d-8308-d3f7c163a9d8</xr:ValueId>
+				<xr:TypeId>326b3295-ac81-4b33-940c-4db0348880b7</xr:TypeId>
+				<xr:ValueId>6b7608c9-c029-4779-8587-95e2b0125172</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.РС_Регионы" category="Ref">
-				<xr:TypeId>b02566aa-fed0-4a33-bdbf-3a46a546e1ca</xr:TypeId>
-				<xr:ValueId>1942de47-0290-4bcb-8228-5816ed3cfe68</xr:ValueId>
+				<xr:TypeId>0cc8db85-c947-40f0-965a-bacbf53dcc29</xr:TypeId>
+				<xr:ValueId>4d0d6249-993d-4b70-bd94-489ca40d5666</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.РС_Регионы" category="Selection">
-				<xr:TypeId>fdfba46a-5f65-4b05-91b5-5686f68383f4</xr:TypeId>
-				<xr:ValueId>7a08ca80-a807-4f56-8d88-55b77a2f13af</xr:ValueId>
+				<xr:TypeId>45706e2c-e5a9-4104-be9c-a6ff19701ea7</xr:TypeId>
+				<xr:ValueId>3e5e09ae-608f-4ec4-9f49-d81d2f8240a1</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.РС_Регионы" category="List">
-				<xr:TypeId>a9b7e5a1-5606-473f-aee1-700b9a2b0ad2</xr:TypeId>
-				<xr:ValueId>54a9df9b-4ac6-4162-9797-bea571a2a370</xr:ValueId>
+				<xr:TypeId>d1afaef4-2daf-4399-9b01-71accc37be58</xr:TypeId>
+				<xr:ValueId>c0a51b1a-77e4-4838-89d2-0825b322fd18</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.РС_Регионы" category="Manager">
-				<xr:TypeId>49547ddc-0f50-4468-acae-bd2ade81731a</xr:TypeId>
-				<xr:ValueId>00b5ba9e-6f3c-433f-a63b-d748f4baf614</xr:ValueId>
+				<xr:TypeId>904a7953-a42c-443e-84a9-86f2a565c1fd</xr:TypeId>
+				<xr:ValueId>ce773428-ef0e-4c75-a7cb-cb77319b40c1</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>150</DescriptionLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>

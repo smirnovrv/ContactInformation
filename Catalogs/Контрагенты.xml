@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="01db143e-1cac-41f7-8263-0b25545d1699">
+	<Catalog uuid="0f454623-df03-4ae0-8a31-eca0aea0b82d">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Контрагенты" category="Object">
-				<xr:TypeId>ef4abf7c-b8ea-453d-a5e9-1c208ab2f48d</xr:TypeId>
-				<xr:ValueId>9b3ac871-bf0f-4d6a-bc9f-afb1d9ceb55d</xr:ValueId>
+				<xr:TypeId>09fca440-f76d-4310-bf07-06e054a69bfd</xr:TypeId>
+				<xr:ValueId>612316c7-9013-4a8c-94f3-26d350b09104</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Контрагенты" category="Ref">
-				<xr:TypeId>9e777c7b-21cb-4476-8a57-9d3bba150d83</xr:TypeId>
-				<xr:ValueId>79f41dc0-5f80-4197-8c1e-d17e00bc1470</xr:ValueId>
+				<xr:TypeId>622c451a-e35d-4f20-9a37-49f8fc476dbb</xr:TypeId>
+				<xr:ValueId>29745bd3-a468-4086-9519-7b348cf7877e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Контрагенты" category="Selection">
-				<xr:TypeId>59b85b88-b6c5-4f55-adf4-82f2f717e12e</xr:TypeId>
-				<xr:ValueId>e562d818-ea2d-414f-ae9d-27be6b882675</xr:ValueId>
+				<xr:TypeId>cfc06951-b520-44a7-a1a5-6080afecff23</xr:TypeId>
+				<xr:ValueId>38fec7ad-42cb-44f6-9053-e24e7efdbb7e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Контрагенты" category="List">
-				<xr:TypeId>ef0ba201-58e7-4dd2-b4fb-6298c129e323</xr:TypeId>
-				<xr:ValueId>384c2041-69e1-416a-baa2-59a183a701a4</xr:ValueId>
+				<xr:TypeId>13009f50-0d38-43e7-bede-d800df6284de</xr:TypeId>
+				<xr:ValueId>23c8bbce-a7a0-4772-9f7e-8473097afeec</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Контрагенты" category="Manager">
-				<xr:TypeId>ad0017cc-03d1-4b0b-b616-d3317441fda0</xr:TypeId>
-				<xr:ValueId>482cba85-7b33-4e7a-8a5c-4630a523a7df</xr:ValueId>
+				<xr:TypeId>416d84c5-f14e-4027-bd8e-98d2a5f54372</xr:TypeId>
+				<xr:ValueId>b3a1dfaf-cd1c-4c7c-bad7-1c413ddb85aa</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -28,62 +28,196 @@
 			<Name>Контрагенты</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>51b9a2d4-bd53-4f40-824e-e3b4e323279e</ExtendedConfigurationObject>
-			<Hierarchical>true</Hierarchical>
-			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
-			<CodeLength>9</CodeLength>
-			<DescriptionLength>100</DescriptionLength>
-			<CodeType>String</CodeType>
-			<CodeAllowedLength>Fixed</CodeAllowedLength>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="b52b96ba-cdc8-45e8-9d55-d6da72738563">
-				<InternalInfo/>
+			<Attribute uuid="3b1e136a-c9a2-475c-90ff-9e819ceb2263">
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Name>КПП</Name>
+					<Name>РС_ОКВЭД2</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ОКВЭД2</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
-					<ExtendedConfigurationObject>f83700ec-9bf6-4b15-9637-c220834cf9ae</ExtendedConfigurationObject>
 					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>9</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
+						<v8:Type>cfg:CatalogRef.КлассификаторОКВЭД2</v8:Type>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="5276ee44-f09a-4611-8840-f1272af27628">
-				<InternalInfo/>
+			<TabularSection uuid="47f65113-2d74-4f27-899b-8289e9be8cb2">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Контрагенты.РС_ДополнительныеОКВЭД" category="TabularSection">
+						<xr:TypeId>8c7ab7af-d78d-4632-8872-aca25806e2af</xr:TypeId>
+						<xr:ValueId>a6ea431e-f214-448c-b1ef-b8b8deae68c0</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Контрагенты.РС_ДополнительныеОКВЭД" category="TabularSectionRow">
+						<xr:TypeId>3bbe8f53-fef0-484c-9e64-4584be618a3d</xr:TypeId>
+						<xr:ValueId>a7098e82-323e-4f2a-b4e2-fda2a6a1ac48</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
 				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Name>НаименованиеПолное</Name>
+					<Name>РС_ДополнительныеОКВЭД</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные ОКВЭДы</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
-					<ExtendedConfigurationObject>128e969b-e420-4894-9c2e-e10e63963d75</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>1000</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
+					<ToolTip/>
+					<FillChecking>DontCheck</FillChecking>
+					<Use>ForItem</Use>
+					<LineNumberLength>9</LineNumberLength>
 				</Properties>
-			</Attribute>
-			<Attribute uuid="1ec56ef8-5624-4866-957c-c1a431db9fdc">
-				<InternalInfo/>
-				<Properties>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Name>ИНН</Name>
-					<Comment/>
-					<ExtendedConfigurationObject>0cecf59e-c7cc-4803-a3fb-387554cb4307</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>50</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
+				<ChildObjects>
+					<Attribute uuid="bd5be2fc-8fb1-4bce-88ff-c3babb635282">
+						<Properties>
+							<Name>КодОКВЭД</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Код ОКВЭД</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>8</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b5e548e8-df1f-4fea-87cc-2e6f074af584">
+						<Properties>
+							<Name>НаименованиеПолное</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наименование полное</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="893a7abe-175a-4057-8c64-3f3488ea729c">
+						<Properties>
+							<Name>ОКВЭД2</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ОКВЭД2</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.КлассификаторОКВЭД2</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="99a43f01-ffd1-40a8-9414-7e45c840d503">
+	<Catalog uuid="cb2c63a1-1809-44c7-9cfa-b0b5631f7f37">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.РС_Города" category="Object">
-				<xr:TypeId>571832a3-1d7d-4544-b740-776bbf294d5f</xr:TypeId>
-				<xr:ValueId>9914eaae-872f-4e4d-ad3b-d9df117872d4</xr:ValueId>
+				<xr:TypeId>b828c60e-e9f8-4dca-84f0-3e0892c0072b</xr:TypeId>
+				<xr:ValueId>65b0650a-6f98-4d61-994c-c5603f16816d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.РС_Города" category="Ref">
-				<xr:TypeId>bcb61ca5-ffe6-48bf-a945-cd1ac82f2c3a</xr:TypeId>
-				<xr:ValueId>9bc8d21a-8d98-4d42-8d57-b8fbf6657648</xr:ValueId>
+				<xr:TypeId>2d39c9df-70cc-4d95-b23b-0ab0242266f0</xr:TypeId>
+				<xr:ValueId>f36bea88-b440-4b1a-98b6-58204eef91ea</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.РС_Города" category="Selection">
-				<xr:TypeId>25db9a63-29b7-4b3c-b098-288064164d1d</xr:TypeId>
-				<xr:ValueId>701d29b7-223b-4066-bce6-e6373b2a876c</xr:ValueId>
+				<xr:TypeId>19e2f686-d59c-4bb9-b46f-66a7fdbd1fcc</xr:TypeId>
+				<xr:ValueId>3402eda6-e2be-4955-bb86-bc66d74c265a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.РС_Города" category="List">
-				<xr:TypeId>6c5a8ee4-5567-4f4b-9316-543be51b4451</xr:TypeId>
-				<xr:ValueId>a234a768-b604-4bb4-8eac-a7d4e6071a2a</xr:ValueId>
+				<xr:TypeId>4d04f4c3-d5cb-47db-9352-03a346c6c3f7</xr:TypeId>
+				<xr:ValueId>cba22aa5-4df7-41bf-a3e0-4b053aea1d4e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.РС_Города" category="Manager">
-				<xr:TypeId>d463f7f6-7b6a-455c-8b4d-ab34746a4659</xr:TypeId>
-				<xr:ValueId>8b421737-9291-4907-9228-aba44da16c20</xr:ValueId>
+				<xr:TypeId>37edfd64-7b59-4b41-9b6f-0b3a0a88b787</xr:TypeId>
+				<xr:ValueId>38502497-0ac0-40cb-8c61-1cd1b5565e6c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>150</DescriptionLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>

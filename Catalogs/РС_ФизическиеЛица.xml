@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="25af5d6e-ab19-4ed1-8e68-10c02c76b5e7">
+	<Catalog uuid="3bd3c533-72f9-4d95-8cb0-73c02c5f2011">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.РС_ФизическиеЛица" category="Object">
-				<xr:TypeId>85ac7327-6b9c-4b6e-88f8-4ca2e7508a20</xr:TypeId>
-				<xr:ValueId>f926bb86-9b7f-4495-bb51-5a036ad4f892</xr:ValueId>
+				<xr:TypeId>bee1ba0f-70e2-46b4-8ac4-9b60b868735c</xr:TypeId>
+				<xr:ValueId>524cc756-c193-414a-ac75-985f9962e50c</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.РС_ФизическиеЛица" category="Ref">
-				<xr:TypeId>bd830426-7151-4347-8045-1da047863ba8</xr:TypeId>
-				<xr:ValueId>e001ebd9-a94c-4ef2-b98d-c69091422fb3</xr:ValueId>
+				<xr:TypeId>ff8b5119-9a77-4b9d-ba82-4cfccb3eb7c7</xr:TypeId>
+				<xr:ValueId>d42477ef-e40f-419d-a723-29c6b86ba1f7</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.РС_ФизическиеЛица" category="Selection">
-				<xr:TypeId>c83c0bcb-885d-41c1-960e-4b2e47bfb20a</xr:TypeId>
-				<xr:ValueId>dbb1f6ac-e29b-46b4-9612-acfc1bc5e46b</xr:ValueId>
+				<xr:TypeId>e862d055-e4ce-45a4-8ecb-4e8869a2e2a3</xr:TypeId>
+				<xr:ValueId>67998db2-dc5e-4691-bb5e-c0097b0baa75</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.РС_ФизическиеЛица" category="List">
-				<xr:TypeId>2ba0f194-5f38-4c92-877f-f84dd686705e</xr:TypeId>
-				<xr:ValueId>544209c8-ad7b-4186-8071-e65e53f3909c</xr:ValueId>
+				<xr:TypeId>be104f1a-a1d5-4f40-8888-f8c6adc99c87</xr:TypeId>
+				<xr:ValueId>4bc1eee0-8462-4d29-be73-6ddaeb956ca9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.РС_ФизическиеЛица" category="Manager">
-				<xr:TypeId>c8bec381-161e-4b4e-8963-650edc72867b</xr:TypeId>
-				<xr:ValueId>7d3bb428-9c00-4d9f-8324-3baa5beba75b</xr:ValueId>
+				<xr:TypeId>7c9b151f-ad97-4bec-a40c-c849c4e9363e</xr:TypeId>
+				<xr:ValueId>06152f45-749d-492b-b177-ef54b5c57c6e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -87,7 +87,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="87ed8f4b-0b6a-43a2-b660-40ef94438c7f">
+			<Attribute uuid="1fa5eb89-25b1-472c-bd3a-6f8b482df77e">
 				<Properties>
 					<Name>ДатаРождения</Name>
 					<Synonym>
@@ -135,7 +135,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="4e98c9bc-71bc-4029-8ed2-8f7c46aab8f5">
+			<Attribute uuid="0f355ae5-9854-4f07-970b-e3cac55bf5ce">
 				<Properties>
 					<Name>ИНН</Name>
 					<Synonym>
@@ -179,7 +179,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="1d979d34-df50-467f-a325-4cc62be0e8cf">
+			<Attribute uuid="7cd8574a-ca0d-4377-a97f-c57096580be8">
 				<Properties>
 					<Name>ФИО</Name>
 					<Synonym>
@@ -228,7 +228,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="3744a491-b22f-4ff1-9b04-3d5f8bed8249">
+			<Attribute uuid="b1fc01e6-c4cb-411f-bd9c-f8cbf6adb286">
 				<Properties>
 					<Name>Фамилия</Name>
 					<Synonym>
@@ -272,7 +272,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="79eb7b8a-ac2b-4fc1-b23e-93de1a083cf3">
+			<Attribute uuid="6550fd3e-c186-4e40-b6cd-cfb469b938ca">
 				<Properties>
 					<Name>Имя</Name>
 					<Synonym>
@@ -316,7 +316,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="238b1abb-b143-4813-b455-7e5021133ccd">
+			<Attribute uuid="5b977453-a815-4f08-9b15-6f0f5d75b13f">
 				<Properties>
 					<Name>Отчество</Name>
 					<Synonym>
@@ -360,15 +360,15 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="8c3c9899-e167-4500-b3f3-f7483c4a3174">
+			<TabularSection uuid="954d2e11-1c4e-4114-a1bd-57febf3dbc9f">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.РС_ФизическиеЛица.КонтактнаяИнформация" category="TabularSection">
-						<xr:TypeId>4c5ac7b3-816e-40a1-8351-c8eb48d4cf25</xr:TypeId>
-						<xr:ValueId>26d04a74-70c2-4158-938a-609380031dfb</xr:ValueId>
+						<xr:TypeId>49ff9fae-db02-4e7a-baa4-e355195ce4ee</xr:TypeId>
+						<xr:ValueId>2af6a97a-b4bb-4f07-a891-d96a8ee6d392</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="CatalogTabularSectionRow.РС_ФизическиеЛица.КонтактнаяИнформация" category="TabularSectionRow">
-						<xr:TypeId>b9b9f0d6-a2de-4cd6-a8a0-321d1ed2ecf1</xr:TypeId>
-						<xr:ValueId>d49068de-62e1-4ff7-a7e7-545a5584b46f</xr:ValueId>
+						<xr:TypeId>f0c3a873-f16a-4ebe-a865-9e3250338a1f</xr:TypeId>
+						<xr:ValueId>2ada0526-b0cf-47c4-a943-cd73bd168a8e</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -415,7 +415,7 @@
 					<LineNumberLength>5</LineNumberLength>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="3f39dc50-837b-4a9f-8c1e-553720c007dc">
+					<Attribute uuid="2e07b022-1269-4502-b07d-70e9ec14a7e0">
 						<Properties>
 							<Name>Тип</Name>
 							<Synonym>
@@ -457,7 +457,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="56ef1cb6-0200-4051-bdd2-400029ad2d3e">
+					<Attribute uuid="15cb8f7e-1b38-4d8d-ac0d-e8523a7596b2">
 						<Properties>
 							<Name>Вид</Name>
 							<Synonym>
@@ -499,7 +499,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="9b881a44-f15b-4b27-a5d9-38a8caea673b">
+					<Attribute uuid="bfdded7e-0992-4250-a624-5fb4106995c1">
 						<Properties>
 							<Name>Представление</Name>
 							<Synonym>
@@ -545,7 +545,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="09ae288b-3d2a-4319-a0b5-d46cc5e1f8b6">
+					<Attribute uuid="e0615761-3a3a-430e-92d2-116f65ba65ef">
 						<Properties>
 							<Name>ЗначенияПолей</Name>
 							<Synonym>
@@ -591,7 +591,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="79e7fc42-edd3-4668-ac9f-ab826bbbec55">
+					<Attribute uuid="2c0b4bdd-c534-4aa9-82d8-152718fbc984">
 						<Properties>
 							<Name>Страна</Name>
 							<Synonym>
@@ -633,7 +633,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="aa18497e-7ea6-43bd-9f04-6b47af2b8de5">
+					<Attribute uuid="0c428feb-efd6-4af0-8925-83283ed51a6a">
 						<Properties>
 							<Name>Регион</Name>
 							<Synonym>
@@ -675,7 +675,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="143b50f5-7efb-4ee0-8a59-d6e3a640fa1d">
+					<Attribute uuid="b2596e7d-985d-4eac-a519-b74bfcfbdf6e">
 						<Properties>
 							<Name>Город</Name>
 							<Synonym>
@@ -717,7 +717,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="4769b775-2046-42aa-be4e-b30051fc9ded">
+					<Attribute uuid="99e15fd1-c3ab-4db8-98d2-dcb7ab5107f6">
 						<Properties>
 							<Name>АдресЭП</Name>
 							<Synonym>
@@ -763,7 +763,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="55532fbf-4830-4a02-9f3d-358732b3b87f">
+					<Attribute uuid="ddd9532b-26d7-4a24-98a9-e412fc05bc58">
 						<Properties>
 							<Name>ДоменноеИмяСервера</Name>
 							<Synonym>
@@ -809,7 +809,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="c7f943fc-79b9-4690-a522-77353415ccf3">
+					<Attribute uuid="aa7734a1-d374-40ac-a0a7-f220f1ba6819">
 						<Properties>
 							<Name>НомерТелефона</Name>
 							<Synonym>
@@ -855,7 +855,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="0bd4c5e7-f2b3-4da4-a1bf-ca3404f3f438">
+					<Attribute uuid="70f87954-d7a1-41ad-bf4c-fa180f92cf70">
 						<Properties>
 							<Name>НомерТелефонаБезКодов</Name>
 							<Synonym>
@@ -901,7 +901,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="fcdc664e-ca12-460f-a319-2681f72a42eb">
+					<Attribute uuid="8842f53c-9adc-41ad-9da1-952ad75f8d4d">
 						<Properties>
 							<Name>Значение</Name>
 							<Synonym>

@@ -2,10 +2,10 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
-			<Button name="СписокКомандаЗаполнитьСправочник" id="25">
+			<Button name="ФормаКомандаЗаполнитьСправочник" id="37">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.КомандаЗаполнитьСправочник</CommandName>
-				<ExtendedTooltip name="СписокКомандаЗаполнитьСправочникРасширеннаяПодсказка" id="26"/>
+				<ExtendedTooltip name="ФормаКомандаЗаполнитьСправочникРасширеннаяПодсказка" id="38"/>
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
@@ -91,6 +91,26 @@
 					<DataPath>Список.КонтрагентБД</DataPath>
 					<ContextMenu name="КонтрагентБДКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="КонтрагентБДРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="Фамилия" id="25">
+					<DataPath>Список.Фамилия</DataPath>
+					<ContextMenu name="ФамилияКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ФамилияРасширеннаяПодсказка" id="27"/>
+				</LabelField>
+				<LabelField name="Имя" id="28">
+					<DataPath>Список.Имя</DataPath>
+					<ContextMenu name="ИмяКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ИмяРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="Отчество" id="31">
+					<DataPath>Список.Отчество</DataPath>
+					<ContextMenu name="ОтчествоКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="ОтчествоРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<LabelField name="ДатаРождения" id="34">
+					<DataPath>Список.ДатаРождения</DataPath>
+					<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="36"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
