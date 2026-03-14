@@ -28,6 +28,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РС_Контрагенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РС_КонтактныеЛица</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.РС_ФизическиеЛица</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.РС_ЗаполнитьДопольнительныеОКВЭД2</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

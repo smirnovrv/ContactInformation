@@ -7,6 +7,16 @@
 				<CommandName>Form.Command.КомандаЗаполнитьСправочник</CommandName>
 				<ExtendedTooltip name="ФормаКомандаЗаполнитьСправочникРасширеннаяПодсказка" id="35"/>
 			</Button>
+			<Button name="ФормаЗаполнитьКИ" id="38">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗаполнитьКИ</CommandName>
+				<ExtendedTooltip name="ФормаЗаполнитьКИРасширеннаяПодсказка" id="39"/>
+			</Button>
+			<Button name="ФормаЗаполнитьОКВЕД2" id="36">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗаполнитьОКВЕД2</CommandName>
+				<ExtendedTooltip name="ФормаЗаполнитьОКВЕД2РасширеннаяПодсказка" id="37"/>
+			</Button>
 		</ChildItems>
 	</AutoCommandBar>
 	<ChildItems>
@@ -106,6 +116,11 @@
 					<DataPath>Список.КонтрагентБД</DataPath>
 					<ContextMenu name="КонтрагентБДКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="КонтрагентБДРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<LabelField name="Источник" id="40">
+					<DataPath>Список.Источник</DataPath>
+					<ContextMenu name="ИсточникКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="ИсточникРасширеннаяПодсказка" id="42"/>
 				</LabelField>
 			</ChildItems>
 		</Table>
