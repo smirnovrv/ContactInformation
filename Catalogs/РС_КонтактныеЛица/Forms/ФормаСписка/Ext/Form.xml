@@ -112,6 +112,11 @@
 					<ContextMenu name="ДатаРожденияКонтекстноеМеню" id="35"/>
 					<ExtendedTooltip name="ДатаРожденияРасширеннаяПодсказка" id="36"/>
 				</LabelField>
+				<LabelField name="Источник" id="39">
+					<DataPath>Список.Источник</DataPath>
+					<ContextMenu name="ИсточникКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="ИсточникРасширеннаяПодсказка" id="41"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
