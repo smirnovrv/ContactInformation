@@ -7,11 +7,6 @@
 				<CommandName>Form.Command.КомандаЗаполнитьСправочник</CommandName>
 				<ExtendedTooltip name="ФормаКомандаЗаполнитьСправочникРасширеннаяПодсказка" id="35"/>
 			</Button>
-			<Button name="ФормаЗаполнитьКИ" id="38">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.ЗаполнитьКИ</CommandName>
-				<ExtendedTooltip name="ФормаЗаполнитьКИРасширеннаяПодсказка" id="39"/>
-			</Button>
 			<Button name="ФормаЗаполнитьОКВЕД2" id="36">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.ЗаполнитьОКВЕД2</CommandName>

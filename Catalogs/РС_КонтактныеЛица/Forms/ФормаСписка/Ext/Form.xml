@@ -82,15 +82,15 @@
 					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
 					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
 				</LabelField>
+				<LabelField name="Контрагент" id="42">
+					<DataPath>Список.Контрагент</DataPath>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="44"/>
+				</LabelField>
 				<LabelField name="Код" id="19">
 					<DataPath>Список.Code</DataPath>
 					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
 					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
-				</LabelField>
-				<LabelField name="КонтрагентБД" id="22">
-					<DataPath>Список.КонтрагентБД</DataPath>
-					<ContextMenu name="КонтрагентБДКонтекстноеМеню" id="23"/>
-					<ExtendedTooltip name="КонтрагентБДРасширеннаяПодсказка" id="24"/>
 				</LabelField>
 				<LabelField name="Фамилия" id="25">
 					<DataPath>Список.Фамилия</DataPath>
